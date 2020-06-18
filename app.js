@@ -16,11 +16,11 @@ window.onload = function() {
 
 	const botonAgregar = document.querySelector('.addChair')
 
-    function agregarSilla() {
-    	todasLasSillas.forEach(function(item) {
-    	item.style.visibility ='visible'
-    	})
-    }
+    	function agregarSilla() {
+		todasLasSillas.forEach(function(item) {
+		item.style.visibility ='visible'
+		})
+    	}
 
 	botonAgregar.addEventListener('click', agregarSilla)	
 
@@ -28,9 +28,9 @@ window.onload = function() {
 
 	function sacarSilla() {
   		todasLasSillas.forEach(function(item) {
-    	item.style.visibility ='hidden'
-    	})
-    }
+		item.style.visibility ='hidden'
+		})
+    	}
 
 	botonRemover.addEventListener('click', sacarSilla)
 
